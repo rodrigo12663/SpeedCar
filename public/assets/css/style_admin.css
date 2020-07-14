@@ -1,0 +1,108 @@
+#inputT{
+    width: 500px;
+  }
+  label{
+      color:white;
+  }
+  a{
+    font-size: 15px;
+    color:black;
+  }
+  a:hover{
+    color:black;
+  }
+  #text{
+    font-size: 15px;
+  }
+  #buttons{
+    color: black;
+  }
+
+  .custom-upload{
+      border: 1px solid  #f8a736;
+      color: black !important;
+      background: #f8a736;
+      height: 40px;
+      padding: 0.5em;
+   
+      border-radius: 4px;
+      cursor: pointer ;
+  }
+  input[type="file"]{
+      display: none;
+      
+   
+  }
+  #img{
+    width: 8rem;
+      border: none;
+  }
+  #imgs{
+    width: 8rem;
+      border: none;
+  }
+  li{
+    display: inline-block;
+  }
+  #cadastro{
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+    margin: 20px;
+    height: 560px;
+    background: #2d3436;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+  h1{
+    text-align: center;
+  }
+
+
+  .container .imgBx{
+    position: relative;
+    width: 45%;
+    height: 100%;
+    overflow: hidden;
+  
+  
+  }
+  .container .imgBx:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    transform-origin: bottom;
+    transform:skewX(-25deg) translateX(10%); 
+  }
+  .container .imgBx img{
+    position: absolute;
+    bottom: 0;
+    max-height: 95%;
+    top: 100px;
+    width: 130%;
+  
+  }
+  #text-title{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+  }
+  #text-upload{
+    color: white;
+  }
+  textarea{
+    width: 500px;
+    height: 120px;
+  }
+  textarea:focus {
+    outline: 0;
+}

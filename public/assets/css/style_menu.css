@@ -1,0 +1,53 @@
+#nav{
+    width: 180px;
+    margin-left: -20px;
+    background-color: white;
+    z-index: 999999;
+    
+}
+
+#nav ul li{
+    margin-top: 50px;
+    padding: 16px;
+}
+#nav ul{
+    background-color: white;
+   
+    
+}
+#nav ul li a{
+    
+    font-size: 12px;
+}
+
+#img{
+    width: 1110px;
+    height:  500px;
+}
+
+#hea{
+    margin: 70px;
+    border:none;
+    width: 95%;
+    opacity: 5.9;
+    height: 400px;
+}
+
+  
+#menu_texto{
+    font-size: 15px;
+    color: black;
+}
+#navbar{
+    width: 29px;
+    height: 38px;
+}
+#mudar{
+    border: none;
+    outline: none;
+
+}
+#icon-menu{
+    width: 30px;
+    height: 30px;
+}

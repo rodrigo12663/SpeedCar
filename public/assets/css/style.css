@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   background-color:white;
+}
+
+
+/* estilo produto */
+.ofertas{
+    width: 90%;
+    
+
+}
+
+.card{
+    display: inline-block;
+    position: relative;
+}
+#tab{
+    margin-top: 80px;
+}
+
+#tab ul li a{
+    list-style: none;
+    outline: none;
+}
+.testes ul li a{
+    position: all;
+    list-style: none;
+    outline: none;
+    color: black;
+}
+
+#ul-1:hover{
+    color: yellow;
+}
